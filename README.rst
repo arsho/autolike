@@ -21,7 +21,7 @@ To use (with caution), simply do::
 
     import autolike
     url = "https://www.facebook.com/" #any Facebook URL
-    run_time = 200
+    run_time = 100
     like_result_dict = autolike.facebook(url, run_time)
     print(like_result_dict)
 

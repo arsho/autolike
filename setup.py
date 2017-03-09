@@ -3,7 +3,7 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 setup(name='autolike',
-      version='0.0.2',
+      version='0.0.3',
       description='Automatically like any given Facebook URL if the user is logged in.',
       long_description=readme(),
       install_requires=['pymsgbox', 'PyTweening>=1.0.1', 'Pillow', 'pyscreeze', 'pyautogui'],
