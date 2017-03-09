@@ -3,9 +3,9 @@
 # Description          : Automatically like any given Facebook URL if the user is logged in.
 #                        DO NOT MISUSE IT FOR DISTURBING INDIVIDUALS.                    
 # Date                 : 09/03/2017
-# Version              : 0.0.1
-# Tested OS            : Ubuntu (16.04 LTS), Windows (10)
-# Python Version       : Python 3, Python 2
+# Version              : 0.0.2
+# Tested OS            : Windows (10)
+# Python Version       : Python 3
 
 import pyautogui as pt
 import webbrowser

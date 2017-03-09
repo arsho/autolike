@@ -7,7 +7,7 @@ If the status has "success" value then the program is successfully completed.
 
 DO NOT MISUSE IT FOR DISTURBING INDIVIDUALS.
 
-The current version is tested on Windows(10) and Ubuntu(16.04 LTS).
+The current version is tested on Windows(10).
 
 To install (in Ubuntu having both Python2 and Python3 by default)::
 
@@ -15,7 +15,7 @@ To install (in Ubuntu having both Python2 and Python3 by default)::
 
 To install (in Windows with which has only Python 3 installed)::
 
-    >>> sudo pip install autolike
+    >>> pip install autolike
 
 To use (with caution), simply do::
 
@@ -23,6 +23,7 @@ To use (with caution), simply do::
     url = "https://www.facebook.com/" #any Facebook URL
     run_time = 200
     like_result_dict = autolike.facebook(url, run_time)
+    print(like_result_dict)
 
 BEFORE RUNNING THE PROGRAM, YOU NEED TO BE LOGGED IN TO FACEBOOK USING YOUR DEFAULT BROWSER.
 	
