@@ -19,10 +19,10 @@ To install (in Windows with which has only Python 3 installed)::
 
 To use (with caution), simply do::
 
-    >>> import autolike
-	>>> url = "https://www.facebook.com/" #any Facebook URL
-	>>> run_time = 200	
-    >>> like_result_dict = autolike.facebook(url, run_time)
+    import autolike
+	url = "https://www.facebook.com/" #any Facebook URL
+	run_time = 200	
+    like_result_dict = autolike.facebook(url, run_time)
 
 BEFORE RUNNING THE PROGRAM, YOU NEED TO BE LOGGED IN TO FACEBOOK USING YOUR DEFAULT BROWSER.
 	
