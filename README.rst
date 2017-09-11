@@ -1,7 +1,7 @@
 AutoLike
 ========
 
-|Build Status| |Version| |Python| |Size| |Codecov|
+|Version| |Python| |Size|
 
 Automatically like any given Facebook URL if the user is logged in.
 The facebook(url, run_time) method takes a Facebook URL and run time in seconds.
@@ -44,8 +44,6 @@ Create Github Pull Request https://github.com/arsho/autolike/pulls
 
 If you have suggestion use GitHub issue system or send a message in Facebook https://www.facebook.com/ars.shovon.
 
-.. |Build Status| image:: https://travis-ci.org/arsho/autolike.svg?branch=master
-   :target: https://travis-ci.org/arsho/autolike
 
 .. |Version| image:: https://img.shields.io/pypi/v/autolike.svg?
    :target: http://badge.fury.io/py/autolike
@@ -56,5 +54,3 @@ If you have suggestion use GitHub issue system or send a message in Facebook htt
 .. |Size| image:: https://img.shields.io/github/size/arsho/autolike/autolike/__init__.py.svg?
    :target: https://github.com/arsho/autolike/   
    
-.. |Codecov| image:: https://codecov.io/github/arsho/autolike/coverage.svg?branch=master
-   :target: https://codecov.io/github/arsho/autolike      
