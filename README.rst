@@ -10,7 +10,7 @@ If the status has "success" value then the program is successfully completed.
 
 DO NOT MISUSE IT FOR DISTURBING INDIVIDUALS.
 
-The current version is tested on Windows(8) and Windows(10).
+The current version is tested on Windows(8) and Windows(10). It does not support Linux based OS.
 
 Installation
 ~~~~~~~~~~~~
