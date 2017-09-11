@@ -5,6 +5,11 @@ python:
     - "3.5"
     - "3.6"
 install:
+  - pip install pymsgbox
+  - pip install PyTweening
+  - pip install Pillow
+  - pip install pyscreeze
+  - pip install pyautogui
   - pip install codecov
 
 script:
