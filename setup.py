@@ -3,17 +3,17 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 setup(name='autolike',
-      version='0.0.3',
+      version='0.0.4',
       description='Automatically like any given Facebook URL if the user is logged in.',
       long_description=readme(),
       install_requires=['pymsgbox', 'PyTweening>=1.0.1', 'Pillow', 'pyscreeze', 'pyautogui'],
       classifiers=[
-        'Development Status :: 4 - Beta',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License'
+		'Development Status :: 5 - Production/Stable',
+		'Topic :: Software Development :: Libraries :: Python Modules'		
       ],
       keywords='Facebook fb like liker autolike autoliker automation',
       url='http://github.com/arsho/autolike',
