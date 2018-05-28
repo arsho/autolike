@@ -3,8 +3,8 @@
 # Description          : Automatically like any given Facebook URL if the user is logged in.
 #                        DO NOT MISUSE IT FOR DISTURBING INDIVIDUALS.                    
 # Date                 : 09/03/2017
-# Version              : 0.0.3
-# Tested OS            : Windows (10)
+# Version              : 1.0.1
+# Tested OS            : Windows 10, Windows 8.1, Windows 8 
 # Python Version       : Python 3
 
 import pyautogui as pt
@@ -55,3 +55,6 @@ def facebook(url = "https://www.facebook.com/", run_time = 120):
     except Exception as e:
         return_dict["message"] = str(e)
     return return_dict
+
+if __name__ == '__main__':
+    print(facebook())

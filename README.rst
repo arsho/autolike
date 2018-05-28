@@ -10,12 +10,12 @@ If the status has "success" value then the program is successfully completed.
 
 DO NOT MISUSE IT FOR DISTURBING INDIVIDUALS.
 
-The current version is tested on Windows(8) and Windows(10). It does not support Linux based OS.
+The current version is tested on Windows(8), Windows(8.1) and Windows(10). It does not support Linux based OS.
 
 Installation
 ~~~~~~~~~~~~
 
-We recommend install ``autolike`` through pip install using Python 3.
+``autolike`` only supports Python 3. Install it using pip.
 
 .. code:: bash
 
@@ -30,12 +30,25 @@ To use (with caution), simply do:
 
     import autolike
     url = "https://www.facebook.com/" # any Facebook URL
-    run_time = 100 # time in seconds
+    run_time = 120 # time in seconds
     like_result_dict = autolike.facebook(url, run_time)
     print(like_result_dict)
 
 
 BEFORE RUNNING THE PROGRAM, YOU NEED TO BE LOGGED IN TO FACEBOOK USING YOUR DEFAULT BROWSER.
+
+Development
+~~~~~~~~~~~
+
+You can build the code by yourself in any Windows 8/8.1/10 machine that has Python 3 installed. 
+For development purpose we recommend to use a virtual environment.
+
+.. code:: bash
+
+    $ virtualenv venv --no-site-packages
+	$ venv\Scripts\activate.bat
+	$ pip install -r requirements.txt
+	$ python autolike\__init__.py
 	
 Contribute
 ~~~~~~~~~~
@@ -49,7 +62,7 @@ If you have suggestion use GitHub issue system or send a message in Facebook htt
    :target: http://badge.fury.io/py/autolike
    
 .. |Python| image:: https://img.shields.io/pypi/pyversions/autolike.svg?
-   :target: https://pypi.python.org/pypi/autolike/0.0.4
+   :target: https://pypi.python.org/pypi/autolike/1.0.1
       
 .. |Size| image:: https://img.shields.io/github/size/arsho/autolike/autolike/__init__.py.svg?
    :target: https://github.com/arsho/autolike/   
