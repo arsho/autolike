@@ -3,7 +3,7 @@ def readme():
     with open('README.rst') as f:
         return f.read()
 setup(name='autolike',
-      version='1.0.1',
+      version='1.0.4',
       description='Automatically like any given Facebook URL if the user is logged in.',
       long_description=readme(),
       install_requires=['pymsgbox', 'PyTweening>=1.0.1', 'Pillow', 'pyscreeze', 'pyautogui'],
@@ -21,6 +21,4 @@ setup(name='autolike',
       author_email='shovon.sylhet@gmail.com',
       license='BSD',
       packages=['autolike'],
-      package_data={'autolike': ['autolike/*.png']},
-      include_package_data=True,
       zip_safe=False)

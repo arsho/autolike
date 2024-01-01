@@ -8,3 +8,15 @@ Changes
 1.0.1 (2018-05-28)
 ------------------
 - Updated image
+
+1.0.2 (2023-12-31)
+------------------
+- Added keyboard shortcut based autolike system inplace of image matching
+
+1.0.3 (2023-12-31)
+------------------
+- Fixed example script
+
+1.0.4 (2023-12-31)
+------------------
+- Fixed development description

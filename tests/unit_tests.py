@@ -12,8 +12,8 @@ import autolike
 import locale
 
 class TestAutolike(unittest.TestCase):
-    def test_facebook(self):
-        res = autolike.facebook()
+    def test_facebook_autolike(self):
+        res = autolike.facebook_autolike()
         self.assertIsInstance(res, dict, "The return type is not a dictionary")
         
 if __name__ == "__main__":
